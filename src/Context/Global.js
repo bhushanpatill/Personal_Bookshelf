@@ -89,4 +89,3 @@ export const useGlobal = () => {
  return useContext(GlobalContext);
 }
 
-// export default Global

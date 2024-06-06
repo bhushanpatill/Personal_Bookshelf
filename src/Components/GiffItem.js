@@ -1,31 +1,3 @@
-// import React from "react";
-
-// function GiffItem({cover_i,title,first_sentence,key1
-// }) {
-//   return (
-//     <div className="outer-card">
-//       <div className="card" style = {{"width":"18rem","border":"0.2rem solid black"}}>
-//         <img src={`https://covers.openlibrary.org/b/id/${cover_i}-L.jpg`} style = {{"width":"17.6rem", "height":"15rem"}} className="card-img-top" alt="..." />
-//         <div className="card-body">
-//           <h5 className="card-title">{title}</h5>
-//           <p className="card-text" style={{"height":"10rem"}}>
-//             {/* {first_sentence && first_sentence.length > 50 ? first_sentence.slice(0,50) : first_sentence } */}
-//             {/* {console.log(key1)} */}
-
-//             {first_sentence && first_sentence.length > 50 ? first_sentence.slice(0, 50) : first_sentence }
-//           </p>
-//           <a href={`https://openlibrary.org/${key1}/`} className="btn btn-primary" style={{"width":"100%","text-align":"center"}}>
-//             Read full article here
-//           </a>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default GiffItem;
-// style="width: 18rem;"
-
 import React from "react";
 import { useGlobal } from "../Context/Global";
 

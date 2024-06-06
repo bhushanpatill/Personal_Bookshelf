@@ -1,5 +1,4 @@
 import React from "react";
-// import { GET_SEARCH, LOADING } from "../Utils/GlobalActions";
 
 const LOADING = "LOADING";
 const GET_SEARCH = "GET_SEARCH";

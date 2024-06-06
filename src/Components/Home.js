@@ -4,10 +4,6 @@ import GiffItem from './GiffItem';
 
 function Home({setRendered}) {
     const {homeresults,getHome} = useGlobal();
-    
-    // useEffect(()=>{
-    //   getHome("world");
-    // },[])
 
   return (
     <div className = "homepage" >
